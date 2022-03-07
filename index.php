@@ -63,4 +63,5 @@
     $Wolsewagen->setColor("rouge");
 
 
-    echo "La couleur de la voiture est"." ".$Wolsewagen->getColor()." " ."moteur"." ".$Wolsewagen->getMotor()." "."année"." ".$passant->getYear()." "."energie"." ".$Wolsewagen->getFuel().".";
+    $test = "La couleur de la voiture est"." ".$Wolsewagen->getColor()." " ."moteur"." ".$Wolsewagen->getMotor()." "."année"." ".$passant->getYear()." "."energie"." ".$Wolsewagen->getFuel().".";
+    echo sprintf($test);
